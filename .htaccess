@@ -1,0 +1,23 @@
+RewriteEngine On
+RewriteRule ^mikrotik6/(.*)$ mikrotik6.php?country=$1
+RewriteRule ^mikrotik/(.*)$ mikrotik.php?country=$1
+RewriteRule ^mikrotik_ipv4/(.*)$ mikrotik.php?country=$1
+RewriteRule ^mikrotik_ipv6/(.*)$ mikrotik_ipv6.php?country=$1
+RewriteRule ^ipset/(.*)$ ipset.php?country=$1
+HeaderName _README.html
+ExpiresActive On
+ExpiresByType text/plain "modification plus 23 h"
+ExpiresDefault "access plus 12 h"
+Header set Cache-Control "public"
+IndexIgnore *.ico
+<FilesMatch ".+\.phps$">
+    SetHandler application/x-httpd-php-source
+    # Deny access to raw php sources by default
+    # To re-enable it's recommended to enable access to the files
+    # only in specific virtual host or directory
+    Require all granted
+</FilesMatch>
+<Limit POST>
+order deny,allow
+deny from all
+</Limit>
