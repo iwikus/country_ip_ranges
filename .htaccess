@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteRule ^mikrotik6/(.*)$ mikrotik6.php?country=$1
+RewriteRule ^mikrotik6/(.*)$ mikrotik.php?country=$1
 RewriteRule ^mikrotik/(.*)$ mikrotik.php?country=$1
 RewriteRule ^mikrotik_ipv4/(.*)$ mikrotik.php?country=$1
 RewriteRule ^mikrotik_ipv6/(.*)$ mikrotik_ipv6.php?country=$1
