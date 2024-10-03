@@ -6,9 +6,9 @@ RewriteRule ^mikrotik_ipv6/(.*)$ mikrotik_ipv6.php?country=$1
 RewriteRule ^ipset/(.*)$ ipset.php?country=$1
 HeaderName _README.html
 ExpiresActive On
-ExpiresByType text/plain "modification plus 23 h"
-ExpiresDefault "access plus 12 h"
-Header set Cache-Control "public"
+ExpiresByType text/plain "modification plus 3 days"
+ExpiresDefault "modification plus 3 days"
+Header set Cache-Control "max-age=604800,public"
 IndexIgnore *.ico
 <FilesMatch ".+\.phps$">
     SetHandler application/x-httpd-php-source
