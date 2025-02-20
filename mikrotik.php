@@ -1,4 +1,4 @@
-<?
+<?php
 $help="Error! Country is missing! Don't use this script directly. Request url with country code, for example <a href=http://www.iwik.org/ipcountry/mikrotik/SK>http://www.iwik.org/ipcountry/mikrotik/SK</a> from router os script:";
 $help.="<br>/tool fetch url=http://www.iwik.org/ipcountry/mikrotik/SK";
 $help.="<br>/import file-name=SK";

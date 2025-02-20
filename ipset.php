@@ -1,4 +1,4 @@
-<?
+<?php
 $help="Error! Country is missing! Don't use this script directly. Request url with country code, for example <a href=http://www.iwik.org/ipcountry/ipset/SK>http://www.iwik.org/ipcountry/ipset/SK</a> from a script:";
 $help.="<br>wget -q http://www.iwik.org/ipcountry/ipset/SK -O - | ipset restore";
 
