@@ -43,8 +43,6 @@ countries=list(set(country))
 # Remove special country codes
 # https://dev.maxmind.com/geoip/whats-new-in-geoip2#custom-country-codes
 countries.remove("EU")
-countries.remove("A1")
-countries.remove("A2")
 
 for country in countries:
     print (country)
