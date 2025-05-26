@@ -4,6 +4,7 @@ RewriteRule ^mikrotik/(.*)$ mikrotik.php?country=$1
 RewriteRule ^mikrotik_ipv4/(.*)$ mikrotik.php?country=$1
 RewriteRule ^mikrotik_ipv6/(.*)$ mikrotik_ipv6.php?country=$1
 RewriteRule ^ipset/(.*)$ ipset.php?country=$1
+RewriteRule ^nft/(.*)$ nft.php?country=$1
 HeaderName _README.html
 ExpiresActive On
 ExpiresByType text/plain "modification plus 3 days"
