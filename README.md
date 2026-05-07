@@ -8,6 +8,8 @@ This lists can be used in
 * HAProxy acls https://blog.erben.sk/2020/12/02/haproxy-country-filtering-acl/
 * nftables rules https://blog.erben.sk/2025/05/26/nftables-and-geoip/
 
-Generated IP ranges are available at http://iwik.org/ipcountry
+Generated IP ranges are available at 
+* http://iwik.org/ipcountry 
+* https://github.com/iwikus/country_ip_ranges/tree/main/cidr generated weekly by github workflow.
 
 
