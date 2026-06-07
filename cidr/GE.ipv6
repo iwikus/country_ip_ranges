@@ -1,4 +1,4 @@
-# IP address data are based on MaxMind GeoLite2 data released under https://www.maxmind.com/en/geolite2/eula ; generated at 2026-05-31 06:54 @ runnervm3jyl0
+# IP address data are based on MaxMind GeoLite2 data released under https://www.maxmind.com/en/geolite2/eula ; generated at 2026-06-07 07:01 @ runnervm3jyl0
 2001:470:d:1276::/64
 2001:470:24:e::/64
 2001:470:26:33f::/64
@@ -38,6 +38,7 @@
 2001:470:1f1b:118::/64
 2001:470:1f1b:396::/64
 2001:470:1f1b:3f9::/64
+2001:470:1f1b:4fa::/64
 2001:470:1f1b:504::/64
 2001:470:1f1b:5c8::/64
 2001:470:1f1f:d::/64
@@ -55,6 +56,7 @@
 2001:470:634e::/48
 2001:470:7105::/48
 2001:470:755e::/48
+2001:470:88bd::/48
 2001:470:b5e6::/48
 2001:470:b653::/48
 2001:470:b6e2::/48
@@ -167,6 +169,7 @@
 2a09:bac0:1000:120f::/64
 2a09:bac0:1000:137c::/64
 2a09:bac0:1000:15d2::/64
+2a09:bac0:1000:15f8::/63
 2a09:bac1:2980::/64
 2a09:bac1:29a0::/64
 2a09:bac1:29c0::/64

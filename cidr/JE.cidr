@@ -1,4 +1,4 @@
-# IP address data are based on MaxMind GeoLite2 data released under https://www.maxmind.com/en/geolite2/eula ; generated at 2026-05-31 06:54 @ runnervm3jyl0
+# IP address data are based on MaxMind GeoLite2 data released under https://www.maxmind.com/en/geolite2/eula ; generated at 2026-06-07 07:01 @ runnervm3jyl0
 5.35.160.0/21
 5.42.128.0/21
 31.186.112.0/21
@@ -100,6 +100,7 @@
 185.179.101.0/24
 185.206.12.0/22
 185.235.244.0/24
+187.14.86.0/24
 188.116.44.0/24
 192.109.41.104/29
 193.3.239.0/24
