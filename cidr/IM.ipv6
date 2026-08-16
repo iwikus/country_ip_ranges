@@ -1,4 +1,4 @@
-# IP address data are based on MaxMind GeoLite2 data released under https://www.maxmind.com/en/geolite2/eula ; generated at 2026-08-09 04:12 @ runnervmvrwv9
+# IP address data are based on MaxMind GeoLite2 data released under https://www.maxmind.com/en/geolite2/eula ; generated at 2026-08-16 03:41 @ runnervmzvulz
 2001:470:8:21::/64
 2001:470:8:29a::/64
 2001:470:19:12fa::/64
@@ -83,7 +83,8 @@
 2a02:2318::/29
 2a02:26f7:fa80::/48
 2a02:26f7:fa81:4000::/64
-2a02:26f7:fa84::/48
+2a02:26f7:fa84:4000::/64
+2a02:26f7:fa84:c380::/64
 2a02:26f7:fa85:4000::/64
 2a02:26f7:fa88:4000::/64
 2a02:26f7:fa88:c380::/64
